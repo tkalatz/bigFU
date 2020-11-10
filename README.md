@@ -51,3 +51,6 @@ read_write_file("20G_3.bin").then( status => {
  console.log(status);
 });
 ```
+
+In action:
+![Action view](action.png)
