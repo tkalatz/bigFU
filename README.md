@@ -1,8 +1,8 @@
 # bigFU
 Asynchronous very Big File Upload
 
-This is a node.js stream-based code that allows asynchronous big file (and very) upload with upload bytes monitoring. In the example
-we are uploading 3 files of 30GB each to a secure webdav server.
+This is a node.js stream-based code that allows asynchronous big file (including very big) upload with bytes monitoring. In the example
+we are uploading 3 files of 20GB each to a secure webdav server.
 
 ```const { createClient } = require("webdav");
 const StreamCounter = require('stream-counter');
